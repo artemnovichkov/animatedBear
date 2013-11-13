@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C38BE8BE183382850070BC96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38BE8BD183382850070BC96 /* Foundation.framework */; };
+		C38BE8C0183382850070BC96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38BE8BF183382850070BC96 /* CoreGraphics.framework */; };
+		C38BE8C2183382850070BC96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38BE8C1183382850070BC96 /* UIKit.framework */; };
+		C38BE8C4183382850070BC96 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38BE8C3183382850070BC96 /* SpriteKit.framework */; };
+		C38BE8CA183382850070BC96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C38BE8C8183382850070BC96 /* InfoPlist.strings */; };
+		C38BE8CC183382850070BC96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C38BE8CB183382850070BC96 /* main.m */; };
+		C38BE8D0183382850070BC96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C38BE8CF183382850070BC96 /* AppDelegate.m */; };
+		C38BE8D3183382850070BC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38BE8D1183382850070BC96 /* Main.storyboard */; };
+		C38BE8D6183382850070BC96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38BE8D5183382850070BC96 /* ViewController.m */; };
+		C38BE8D9183382850070BC96 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C38BE8D8183382850070BC96 /* MyScene.m */; };
+		C38BE8DB183382850070BC96 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C38BE8DA183382850070BC96 /* Spaceship.png */; };
+		C38BE8DD183382850070BC96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38BE8DC183382850070BC96 /* Images.xcassets */; };
+		C38BE8E4183382850070BC96 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38BE8E3183382850070BC96 /* XCTest.framework */; };
+		C38BE8E5183382850070BC96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38BE8BD183382850070BC96 /* Foundation.framework */; };
+		C38BE8E6183382850070BC96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38BE8C1183382850070BC96 /* UIKit.framework */; };
+		C38BE8EE183382850070BC96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C38BE8EC183382850070BC96 /* InfoPlist.strings */; };
+		C38BE8F0183382850070BC96 /* AnimatedBearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C38BE8EF183382850070BC96 /* AnimatedBearTests.m */; };
+		C38BE90C183383200070BC96 /* BearImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C38BE8F91833831F0070BC96 /* BearImages.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C38BE8E7183382850070BC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C38BE8B2183382850070BC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C38BE8B9183382850070BC96;
+			remoteInfo = AnimatedBear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C38BE8BA183382850070BC96 /* AnimatedBear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedBear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38BE8BD183382850070BC96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C38BE8BF183382850070BC96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C38BE8C1183382850070BC96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C38BE8C3183382850070BC96 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		C38BE8C7183382850070BC96 /* AnimatedBear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimatedBear-Info.plist"; sourceTree = "<group>"; };
+		C38BE8C9183382850070BC96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C38BE8CB183382850070BC96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C38BE8CD183382850070BC96 /* AnimatedBear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimatedBear-Prefix.pch"; sourceTree = "<group>"; };
+		C38BE8CE183382850070BC96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C38BE8CF183382850070BC96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C38BE8D2183382850070BC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C38BE8D4183382850070BC96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C38BE8D5183382850070BC96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C38BE8D7183382850070BC96 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		C38BE8D8183382850070BC96 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		C38BE8DA183382850070BC96 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		C38BE8DC183382850070BC96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C38BE8E2183382850070BC96 /* AnimatedBearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedBearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C38BE8E3183382850070BC96 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C38BE8EB183382850070BC96 /* AnimatedBearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimatedBearTests-Info.plist"; sourceTree = "<group>"; };
+		C38BE8ED183382850070BC96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C38BE8EF183382850070BC96 /* AnimatedBearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimatedBearTests.m; sourceTree = "<group>"; };
+		C38BE8F91833831F0070BC96 /* BearImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BearImages.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C38BE8B7183382850070BC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38BE8C0183382850070BC96 /* CoreGraphics.framework in Frameworks */,
+				C38BE8C2183382850070BC96 /* UIKit.framework in Frameworks */,
+				C38BE8C4183382850070BC96 /* SpriteKit.framework in Frameworks */,
+				C38BE8BE183382850070BC96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38BE8DF183382850070BC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38BE8E4183382850070BC96 /* XCTest.framework in Frameworks */,
+				C38BE8E6183382850070BC96 /* UIKit.framework in Frameworks */,
+				C38BE8E5183382850070BC96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C38BE8B1183382850070BC96 = {
+			isa = PBXGroup;
+			children = (
+				C38BE8C5183382850070BC96 /* AnimatedBear */,
+				C38BE8E9183382850070BC96 /* AnimatedBearTests */,
+				C38BE8BC183382850070BC96 /* Frameworks */,
+				C38BE8BB183382850070BC96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C38BE8BB183382850070BC96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C38BE8BA183382850070BC96 /* AnimatedBear.app */,
+				C38BE8E2183382850070BC96 /* AnimatedBearTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C38BE8BC183382850070BC96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C38BE8BD183382850070BC96 /* Foundation.framework */,
+				C38BE8BF183382850070BC96 /* CoreGraphics.framework */,
+				C38BE8C1183382850070BC96 /* UIKit.framework */,
+				C38BE8C3183382850070BC96 /* SpriteKit.framework */,
+				C38BE8E3183382850070BC96 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C38BE8C5183382850070BC96 /* AnimatedBear */ = {
+			isa = PBXGroup;
+			children = (
+				C38BE8F91833831F0070BC96 /* BearImages.atlas */,
+				C38BE8CE183382850070BC96 /* AppDelegate.h */,
+				C38BE8CF183382850070BC96 /* AppDelegate.m */,
+				C38BE8D1183382850070BC96 /* Main.storyboard */,
+				C38BE8D4183382850070BC96 /* ViewController.h */,
+				C38BE8D5183382850070BC96 /* ViewController.m */,
+				C38BE8D7183382850070BC96 /* MyScene.h */,
+				C38BE8D8183382850070BC96 /* MyScene.m */,
+				C38BE8DA183382850070BC96 /* Spaceship.png */,
+				C38BE8DC183382850070BC96 /* Images.xcassets */,
+				C38BE8C6183382850070BC96 /* Supporting Files */,
+			);
+			path = AnimatedBear;
+			sourceTree = "<group>";
+		};
+		C38BE8C6183382850070BC96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C38BE8C7183382850070BC96 /* AnimatedBear-Info.plist */,
+				C38BE8C8183382850070BC96 /* InfoPlist.strings */,
+				C38BE8CB183382850070BC96 /* main.m */,
+				C38BE8CD183382850070BC96 /* AnimatedBear-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C38BE8E9183382850070BC96 /* AnimatedBearTests */ = {
+			isa = PBXGroup;
+			children = (
+				C38BE8EF183382850070BC96 /* AnimatedBearTests.m */,
+				C38BE8EA183382850070BC96 /* Supporting Files */,
+			);
+			path = AnimatedBearTests;
+			sourceTree = "<group>";
+		};
+		C38BE8EA183382850070BC96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C38BE8EB183382850070BC96 /* AnimatedBearTests-Info.plist */,
+				C38BE8EC183382850070BC96 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C38BE8B9183382850070BC96 /* AnimatedBear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38BE8F3183382850070BC96 /* Build configuration list for PBXNativeTarget "AnimatedBear" */;
+			buildPhases = (
+				C38BE8B6183382850070BC96 /* Sources */,
+				C38BE8B7183382850070BC96 /* Frameworks */,
+				C38BE8B8183382850070BC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedBear;
+			productName = AnimatedBear;
+			productReference = C38BE8BA183382850070BC96 /* AnimatedBear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C38BE8E1183382850070BC96 /* AnimatedBearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C38BE8F6183382850070BC96 /* Build configuration list for PBXNativeTarget "AnimatedBearTests" */;
+			buildPhases = (
+				C38BE8DE183382850070BC96 /* Sources */,
+				C38BE8DF183382850070BC96 /* Frameworks */,
+				C38BE8E0183382850070BC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C38BE8E8183382850070BC96 /* PBXTargetDependency */,
+			);
+			name = AnimatedBearTests;
+			productName = AnimatedBearTests;
+			productReference = C38BE8E2183382850070BC96 /* AnimatedBearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C38BE8B2183382850070BC96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Артем Новичков";
+				TargetAttributes = {
+					C38BE8E1183382850070BC96 = {
+						TestTargetID = C38BE8B9183382850070BC96;
+					};
+				};
+			};
+			buildConfigurationList = C38BE8B5183382850070BC96 /* Build configuration list for PBXProject "AnimatedBear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C38BE8B1183382850070BC96;
+			productRefGroup = C38BE8BB183382850070BC96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C38BE8B9183382850070BC96 /* AnimatedBear */,
+				C38BE8E1183382850070BC96 /* AnimatedBearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C38BE8B8183382850070BC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38BE8CA183382850070BC96 /* InfoPlist.strings in Resources */,
+				C38BE8DD183382850070BC96 /* Images.xcassets in Resources */,
+				C38BE90C183383200070BC96 /* BearImages.atlas in Resources */,
+				C38BE8DB183382850070BC96 /* Spaceship.png in Resources */,
+				C38BE8D3183382850070BC96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38BE8E0183382850070BC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38BE8EE183382850070BC96 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C38BE8B6183382850070BC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38BE8D9183382850070BC96 /* MyScene.m in Sources */,
+				C38BE8D6183382850070BC96 /* ViewController.m in Sources */,
+				C38BE8D0183382850070BC96 /* AppDelegate.m in Sources */,
+				C38BE8CC183382850070BC96 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C38BE8DE183382850070BC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C38BE8F0183382850070BC96 /* AnimatedBearTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C38BE8E8183382850070BC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C38BE8B9183382850070BC96 /* AnimatedBear */;
+			targetProxy = C38BE8E7183382850070BC96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C38BE8C8183382850070BC96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38BE8C9183382850070BC96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C38BE8D1183382850070BC96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38BE8D2183382850070BC96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C38BE8EC183382850070BC96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C38BE8ED183382850070BC96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C38BE8F1183382850070BC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C38BE8F2183382850070BC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C38BE8F4183382850070BC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedBear/AnimatedBear-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedBear/AnimatedBear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C38BE8F5183382850070BC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedBear/AnimatedBear-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedBear/AnimatedBear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C38BE8F7183382850070BC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimatedBear.app/AnimatedBear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedBear/AnimatedBear-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AnimatedBearTests/AnimatedBearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C38BE8F8183382850070BC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimatedBear.app/AnimatedBear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimatedBear/AnimatedBear-Prefix.pch";
+				INFOPLIST_FILE = "AnimatedBearTests/AnimatedBearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C38BE8B5183382850070BC96 /* Build configuration list for PBXProject "AnimatedBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38BE8F1183382850070BC96 /* Debug */,
+				C38BE8F2183382850070BC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38BE8F3183382850070BC96 /* Build configuration list for PBXNativeTarget "AnimatedBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38BE8F4183382850070BC96 /* Debug */,
+				C38BE8F5183382850070BC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C38BE8F6183382850070BC96 /* Build configuration list for PBXNativeTarget "AnimatedBearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C38BE8F7183382850070BC96 /* Debug */,
+				C38BE8F8183382850070BC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C38BE8B2183382850070BC96 /* Project object */;
+}
